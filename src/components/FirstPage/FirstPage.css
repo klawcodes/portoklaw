@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-style: italic;
+  color: #555555;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-size: 15px;
+  font-family: 'fgreg', sans-serif;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  color: #555555;
+  gap: 2rem;
+}
+
+.header-menu>li:hover{
+  cursor: pointer;
+  color: red;
+}

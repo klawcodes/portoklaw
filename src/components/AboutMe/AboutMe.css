@@ -1,0 +1,30 @@
+.abotme {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.left-a {
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.left-a h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.left-a p {
+  font-size: 22px;
+}
+
+.right-a {
+  flex: 1;
+  padding-top: 1.5rem;
+  position: relative;
+
+}
