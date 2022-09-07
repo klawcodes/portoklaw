@@ -13,13 +13,15 @@
   flex-direction: column;
 }
 
-.left-a h2 {
+.left-a h2,
+.right-a h1{
   font-size: 50px;
   font-weight: 100;
 }
 
 .left-a p {
   font-size: 22px;
+  margin-bottom: 5rem;
 }
 
 .right-a {
@@ -27,4 +29,142 @@
   padding-top: 1.5rem;
   position: relative;
 
+}
+
+.right-a h2 {
+  font-weight: 100;
+}
+
+.right-a .skills {
+  padding-top: 1.7rem;
+}
+
+.skill-main {
+  position: relative;
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 15px;
+}
+
+.skill-main .skill-bar .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.skill-bar .bar {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(85, 85, 85, 0.1);
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.skill-bar .bar span {
+  width: 45.5%;  
+  height: 10px;
+  position: absolute;
+  background-color: #555;
+  border-radius: 20px;
+}
+
+.skill-bar .bar .blender,
+.skill-bar .bar .html,
+.skill-bar .bar .css {
+  width: 36.4%;
+  animation: mayan 3s;
+}
+
+.skill-bar .bar .js {
+  width: 22.75%;
+  animation: mayanjleg 3.5s;
+}
+
+.skill-bar .bar .react {
+  width: 18.2%;
+  animation: jleg 4s;
+}
+
+.skill-bar .bar .python {
+  width: 13.65%;
+  animation: jlegbgt 4.5s;
+}
+
+.skill-bar .bar .ps,
+.skill-bar .bar .ae {
+  width: 40.95%;
+  animation: gud 3s;
+}
+
+.skill-bar .bar .ai {
+  width: 32.25%;
+  animation: mayangud 3.5s;
+}
+
+@keyframes gud {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 40.95%;
+  }
+}
+
+@keyframes mayangud {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 32.25%;
+  }
+}
+
+@keyframes mayan {
+  
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 36.4%;
+  }
+
+}
+
+@keyframes mayanjleg {
+  
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 22.75%;
+  }
+
+}
+
+@keyframes jleg {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 18.2%;
+  }
+}
+
+@keyframes jlegbgt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 13.65%;
+  }
 }

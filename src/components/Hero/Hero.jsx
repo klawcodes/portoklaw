@@ -25,7 +25,7 @@ const Hero = () => {
 <h2>RIOT REVENGER</h2>
         </div>
         <div className="neon">
-          <a href="https://instagram.com/neonpaperkid">
+          <a href="https://instagram.com/neonpaperkid" target="_blank">
             <img src={riot} className="imager"/>
           </a>
           <hr className="g"/>
