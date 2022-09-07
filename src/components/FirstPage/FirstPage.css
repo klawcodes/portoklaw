@@ -6,6 +6,7 @@
 .logo {
   font-style: italic;
   color: #555555;
+  animation: slide-xdown .5s ease;
 }
 
 .header {
@@ -24,6 +25,23 @@
   color: #555555;
   gap: 2rem;
 }
+
+.header-menu .h{
+  animation: slide-xdown .3s ease;
+}
+
+.header-menu .a{
+  animation: slide-xdown .4s ease;
+}
+
+.header-menu .w{
+  animation: slide-xdown .5s ease;
+}
+
+.header-menu .c{
+  animation: slide-xdown .6s ease;
+}
+
 
 .header-menu>li:hover{
   cursor: pointer;
