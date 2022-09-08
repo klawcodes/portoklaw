@@ -24,7 +24,7 @@ const AboutMe = () => {
     <div className="abotme">
       <div className="left-a">
         <h2 ref={splitRef} data-splitting='true' >ABOUT ME.</h2>
-        <p>I know you're confused about what the above means, <br/> so let me introduce myself.<br/><br/> Hello, my name is Muhammad Dimas aka many names.<br/> I am a Junior Programmer and Digital Artist. passionate about <br/>design, music, technology and programming.
+        <p>I know you're confused about what the above means, <br/> so let me introduce myself.<br/><br/> Hello, my name is Muhammad Dimas, known by many names.<br/> I am a Junior Programmer and Digital Artist. passionate about <br/>design, music, technology and programming.
           <br/><br/>I like to give a nickname to myself in some hobby examples <br/> of making 3d, design, and music. so the name<br/> you see above is my nickname in some jobs. <br/><br/>
 I'm interested in programming since 2020, the first time i started programming was to make a Portfolio Website for my self and now i'm learning something cool. </p>
       </div>
@@ -70,6 +70,15 @@ I'm interested in programming since 2020, the first time i started programming w
                   <span className="react"></span>
                 </div>
               </div>
+             <div className="skill-bar">
+              <div className="info">
+                <p>VUE JS</p>
+                <p>40%</p>
+              </div>
+              <div className="bar">
+                <span className="react"></span>
+              </div>
+            </div> 
               <div className="skill-bar">
                 <div className="info">
                   <p>PYTHON</p>

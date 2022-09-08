@@ -5,6 +5,7 @@
 
 .works {
   padding-left: 2rem;
+  padding-top: 4rem;
   color: #555;
 }
 
@@ -14,8 +15,12 @@
 }
 
 .list-works {
+  position: relative;
   padding-top: 2rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 15px;
   width: 100%;
   gap: 5rem;
   margin-bottom: 5%;
@@ -24,6 +29,13 @@
 .list-works h2 {
   font-size: 20px;
   font-weight: 100;
+}
+
+.line {
+  margin-bottom: 1rem;
+  gap: .5rem;
+  width: 100%;
+  display: flex;
 }
 
 .list-works .button {

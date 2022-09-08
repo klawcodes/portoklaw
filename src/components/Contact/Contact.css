@@ -1,0 +1,63 @@
+.kontak {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+  color: #555;
+}
+
+.left-c {
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.left-c a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.left-c a:hover {
+  text-decoration: underline;
+}
+
+.left-c .email {
+  display: flex;
+}
+
+.left-c .email .iconx{
+  font-size: 28px;
+  margin-right: 1rem;
+  color: #555;
+}
+
+.left-c .ava .iconxx {
+  font-size: 12px;
+  margin-right: .5rem;
+  color: green;
+}
+
+.right-c {
+  flex: 1;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  position: relative;
+}
+
+.right-c .tkontak {
+  font-size: 70px;
+  text-align: right;
+  line-height: 90%;
+}
+
+.left-c .ava {
+  display: flex;
+  
+}
+
+.left-c .t-ava {
+  font-size: 15px;
+  font-weight: 100;
+}
