@@ -61,3 +61,20 @@
   font-size: 15px;
   font-weight: 100;
 }
+
+@media screen and (max-width: 540px) {
+  .kontak {
+    flex-direction: column;
+  }
+
+  .left-c {
+    align-items: center;
+    padding-left: 0;
+  }
+  .right-c .tkontak {
+    font-size:  30px;
+    text-align: center;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+}

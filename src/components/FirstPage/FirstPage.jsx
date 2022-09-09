@@ -1,17 +1,60 @@
 import React, { useState } from 'react'
 import './FirstPage.css'
+import Bars from '../../images/bars.png'
 import { Link } from 'react-scroll'
 
 const FirstPage = () => {
+
+  const mobile1 = window.innerWidth<=540 ? true: false;
+  const [menuOpened, setMenuOpened] = useState(false)
+
   return (
     <div className="header">
       <h2 className="logo">klaw.</h2>
+      {menuOpened === false && mobile1 === true ? (
+        <div className="bars" style={{backgroundColor: "#555", padding: ".7rem", borderRadius: "5px",}} onClick={() => setMenuOpened(true)}>
+          <img src={Bars} style={{width: '1.5rem', height: '1rem'}}/>
+        </div>
+      ) : (
       <ul className="header-menu">
-        <li className="h">HOME</li>
-        <li className="a">ABOUT</li>
-        <li className="w">WORKS</li>
-        <li className="c">CONTACT</li>
+        <li className="h"><Link
+        
+        onClick={()=> setMenuOpened(false)}
+        activeClass="active"
+        to='home'
+        spy={true}
+        smooth={true}
+                                                    
+        >HOME</Link></li>
+        <li className="a"><Link
+        
+        onClick={()=> setMenuOpened(false)}
+        activeClass="active"
+        to='about'
+        spy={true}
+        smooth={true}
+        
+        >ABOUT</Link></li>
+        <li className="w"><Link
+        
+        onClick={()=> setMenuOpened(false)}
+        activeClass="active"
+        to='works'
+        spy={true}
+        smooth={true}
+
+        >WORKS</Link></li>
+        <li className="c"><Link
+        
+        onClick={()=> setMenuOpened(false)}
+        activeClass="active"
+        to='contact'
+        spy={true}
+        smooth={true}
+        
+        >CONTACT</Link></li>
       </ul>
+      )}
     </div>
   )
 }

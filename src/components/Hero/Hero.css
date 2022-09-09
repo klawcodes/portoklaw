@@ -47,3 +47,17 @@ hr.g {
   border: 1px solid #555;
   width: 300px;
 }
+
+@media screen and (max-width: 540px) {
+  .image {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-right: 2rem;
+  }
+
+  .image::-webkit-scrollbar {
+    display: none;
+  }
+}
+

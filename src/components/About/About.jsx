@@ -21,7 +21,7 @@ const About = () => {
   }, [splitRef])
 
   return (
-    <div>
+    <div id="home">
       <div className="about">
         <p className="text" ref={splitRef} data-splitting='true'>HELLO, MY NAME IS KLAW.<br/> A JUNIOR PROGRAMMER &<br/> DIGITAL ARTIST</p>
           <div className="sub-about">

@@ -168,3 +168,17 @@
     width: 13.65%;
   }
 }
+
+@media screen and (max-width: 540px) {
+  .abotme {
+    flex-direction: column;
+  }
+
+  .left-a {
+    padding-right: 2rem;
+  }
+
+  .right-a {
+    padding-left: 2rem;
+  }
+}

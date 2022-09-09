@@ -19,6 +19,12 @@
   font-family: 'fgreg', sans-serif;
 }
 
+.bars {
+  position: relative;
+  bottom: 4.5rem;
+  left: 2rem;
+}
+
 .header-menu {
   list-style: none;
   display: flex;
@@ -54,6 +60,8 @@
       position: absolute;
       justify-content: space-between;
       gap: 15rem;
+      z-index: 999;
+      position: fixed;
     }
 
     .logo {
@@ -61,6 +69,11 @@
     }
 
     .header-menu {
+      position: absolute;
       flex-direction: column;
+      background-color: #EEF2E6;
+      left: 16rem;
+      border-radius: 20px;
+      padding: 1rem;
     }
 }

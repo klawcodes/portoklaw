@@ -7,7 +7,7 @@ import Email from "../../images/email.svg"
 
 const Contact = () => {
   return (
-    <div className="kontak">
+    <div className="kontak" id="contact">
       <div className="left-c">
         <div className="ava">
           <GoPrimitiveDot className="iconxx"/>

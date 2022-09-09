@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import './Works.css'
 import test from "../../images/mk.png"
+import test2 from "../../images/klaw.png"
 import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiPython } from "react-icons/di"
 import { SiBlender, SiVuedotjs } from "react-icons/si";
 import { gsap } from 'gsap';
@@ -49,12 +50,14 @@ const Works = () => {
   }
 
   return (
-    <div data-scroll>
+    <div data-scroll id="works">
       <div className="works">
         <h2>FEATURED WORKS.</h2>
+        {/*<div className="test2" ref={ref}>
+          <img src={test2} className="cursor-follow" ref={el => cursor =el}/>
+        </div>*/}
         <div className="test" ref={ref}>
           <img src={test} className="cursor-follow" ref={el => cursor =el}/>
-
         </div>
         <div className="list-works">
           <div className="movie" onMouseEnter={hover} onMouseLeave={hoverout}>
@@ -67,7 +70,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/klawcodes/movie-app" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-          <div className="larq">
+          <div className="larq" onMouseEnter={hover} onMouseLeave={hoverout}>
             <div className="line">
               <h2 className="title">LARQ API</h2>
               <DiJsBadge title="JavaScript" className="icon"/>

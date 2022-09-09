@@ -21,7 +21,7 @@ const AboutMe = () => {
   
   
   return (
-    <div className="abotme">
+    <div className="abotme" id="about">
       <div className="left-a">
         <h2 ref={splitRef} data-splitting='true' >ABOUT ME.</h2>
         <p>I know you're confused about what the above means, <br/> so let me introduce myself.<br/><br/> Hello, my name is Muhammad Dimas, known by many names.<br/> I am a Junior Programmer and Digital Artist. passionate about <br/>design, music, technology and programming.
