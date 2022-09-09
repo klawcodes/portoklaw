@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './FirstPage.css'
+import { Link } from 'react-scroll'
 
 const FirstPage = () => {
   return (

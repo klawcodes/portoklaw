@@ -47,3 +47,20 @@
   cursor: pointer;
   color: red;
 }
+
+@media screen and (max-width: 540px) {
+    .header {
+      align-items: center;
+      position: absolute;
+      justify-content: space-between;
+      gap: 15rem;
+    }
+
+    .logo {
+      margin-bottom: 9.5rem;
+    }
+
+    .header-menu {
+      flex-direction: column;
+    }
+}

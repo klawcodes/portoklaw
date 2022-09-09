@@ -8,6 +8,8 @@ import LocomotiveScroll from "locomotive-scroll";
 
 const Works = () => {
 
+
+  const ref = useRef();
   let tl = gsap.timeline();
   let tl2 = gsap.timeline();
   let cursor = useRef(null);
@@ -17,7 +19,7 @@ const Works = () => {
   let mouseX = 0;
   let mouseY = 0;
   useEffect(() => {
-    tl.to({},0.016, {
+    tl.to({},0.017, {
       repeat: -1,
       onRepeat: function(){
         posX += (mouseX-posX) / 10;
@@ -37,15 +39,25 @@ const Works = () => {
     
   })
 
+  const hover = () => {
+    ref.current.style.opacity= '1' ;
+    
+  }
+
+  const hoverout = () => {
+    ref.current.style.opacity= '0';
+  }
+
   return (
     <div data-scroll>
       <div className="works">
         <h2>FEATURED WORKS.</h2>
-        {/*<div className="test">
-          <img src={test} className="cursor-follow"/>
-        </div>*/}
+        <div className="test" ref={ref}>
+          <img src={test} className="cursor-follow" ref={el => cursor =el}/>
+
+        </div>
         <div className="list-works">
-          <div className="movie" >
+          <div className="movie" onMouseEnter={hover} onMouseLeave={hoverout}>
             <div className="line">
               <h2 className="title">IMDB WANNA BE</h2>
               <DiReact title="React JS" className="icon"/>
