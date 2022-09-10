@@ -191,4 +191,8 @@
   .right-a {
     padding-left: 2rem;
   }
+
+  .skill-main {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
