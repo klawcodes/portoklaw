@@ -45,7 +45,7 @@
   margin-top: 1rem;
   margin-bottom: 2rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 4fr);
   grid-column-gap: 50px;
   grid-row-gap: 15px;
 }
@@ -54,6 +54,16 @@
   display: flex;
   justify-content: space-between;
   padding: 0 5px;
+}
+
+.skill-bar .info .prologo {
+  width: 60px;
+  filter: grayscale(100%);
+  transition: .2s ease;
+}
+
+.skill-bar .info .prologo:hover {
+  filter: grayscale(0%);
 }
 
 .skill-bar .bar {
