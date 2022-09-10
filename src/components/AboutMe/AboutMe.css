@@ -196,3 +196,18 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media screen and (max-width: 360px) {
+  .skills .coding h2,
+  .skills .design h2{
+    font-size: 20px;
+  }
+
+  .skills .design {
+    padding-top: 1rem;
+  }
+
+  .skill-bar .info .prologo {
+    width: 50px;
+  }
+}

@@ -9,6 +9,8 @@
   animation: slide-xdown .5s ease;
 }
 
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,7 +35,7 @@
 }
 
 .header-menu>li {
-  transition: .2s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
 .header-menu .h{
@@ -80,4 +82,30 @@
       border-radius: 20px;
       padding: 1rem;
     }
+
+    .bars {
+      width: 1rem;
+      height: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    gap: 11rem;
+  }
+
+  .logo {
+    margin-bottom: 8.5rem;
+  }
+
+  .bars,  {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .header-menu {
+    position: absolute;
+    left: 13rem;
+    top: -0.5rem;
+  }
 }

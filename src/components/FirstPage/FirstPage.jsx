@@ -13,7 +13,7 @@ const FirstPage = () => {
       <h2 className="logo">klaw.</h2>
       {menuOpened === false && mobile1 === true ? (
         <div className="bars" style={{backgroundColor: "#555", padding: ".7rem", borderRadius: "5px",}} onClick={() => setMenuOpened(true)}>
-          <img src={Bars} style={{width: '1.5rem', height: '1rem'}}/>
+          <img src={Bars} style={{width: '1rem', height: '1rem'}}/>
         </div>
       ) : (
       <ul className="header-menu">

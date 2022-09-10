@@ -78,3 +78,19 @@
     gap: 2rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .list-works {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .line .title {
+    font-size: 17px;
+  }
+
+  .list-works p {
+    font-size: 15px;
+    
+  }
+}

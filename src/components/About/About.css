@@ -35,6 +35,12 @@
   }
 }
 
+@media screen and (max-width: 360px) {
+  .about {
+    font-size: 40px;
+  }
+}
+
 @font-face {
   font-family: fgreg;
   src: url('../../fonts/foundergroteskmedium.otf')

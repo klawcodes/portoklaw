@@ -78,3 +78,10 @@
     padding-top: 1rem;
   }
 }
+
+
+@media screen and (max-width: 360px) {
+  .right-c .tkontak {
+    font-size: 25px;
+  }
+}
