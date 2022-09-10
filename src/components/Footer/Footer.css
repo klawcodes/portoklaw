@@ -6,13 +6,9 @@
   color: #555;
   width: 100%;
   margin: 0;
+  position: absolute;
   border-bottom: 2px solid;
   transition: .5s ease-in-out;
-}
-  
-.footer:hover .f-line {
-  width: 50%;
-  margin: 0 25% 0 25%;
 }
 
 .credit {
