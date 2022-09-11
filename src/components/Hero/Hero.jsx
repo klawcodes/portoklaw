@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import klaw from '../../images/klaw.png'
 import riot from '../../images/riot.png'
+import neon from '../../images/npk.png'
 import mk from '../../images/mk.png'
 
 const Hero = () => {
@@ -26,7 +27,7 @@ const Hero = () => {
         </div>
         <div className="neon">
           <a href="https://instagram.com/neonpaperkid" target="_blank">
-            <img src={riot} className="imager"/>
+            <img src={neon} className="imager"/>
           </a>
           <hr className="g"/>
           <p>GRAPHIC DESIGNER - DIGITAL ARTIST</p>
