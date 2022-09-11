@@ -9,6 +9,9 @@
   animation: slide-xdown .5s ease;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
 
 
 .header {
