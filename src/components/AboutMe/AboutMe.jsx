@@ -3,6 +3,8 @@ import './AboutMe.css'
 import 'splitting/dist/splitting.css'
 import 'splitting/dist/splitting-cells.css'
 import Splitting from 'splitting'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const AboutMe = () => {
 
@@ -18,17 +20,22 @@ const AboutMe = () => {
       console.log(`Split text into ${lines} lines`)
     }
   }, [splitRef])
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   
   
   return (
     <div className="abotme" id="about">
-      <div className="left-a">
+      <div className="left-a" data-aos="fade-up" data-aos-duration="400">
         <h2 ref={splitRef} data-splitting='true' >ABOUT ME.</h2>
         <p>I know you're confused about what the above means, <br/> so let me introduce myself.<br/><br/> Hello, my name is Muhammad Dimas, known by many names.<br/> I am a Junior Programmer and Digital Artist. passionate about <br/>design, music, technology and programming.
           <br/><br/>I like to give a nickname to myself in some hobby examples <br/> of making 3d, design, and music. so the name<br/> you see above is my nickname in some jobs. <br/><br/>
 I'm interested in programming since 2020, the first time i started programming was to make a Portfolio Website for my self and now i'm learning something cool. </p>
       </div>
-      <div className="right-a">
+      <div className="right-a" data-aos="fade-up" data-aos-duration="800">
         <h1>SKILLS.</h1>    
         <div className="skills">
           <div className="coding">
@@ -189,3 +196,4 @@ I'm interested in programming since 2020, the first time i started programming w
 }
 
 export default AboutMe
+

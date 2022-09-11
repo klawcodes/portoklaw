@@ -11,6 +11,21 @@
   margin-bottom: 5rem;
 }
 
+.klaw {
+  animation: slide-xdown .8s ease;
+}
+
+.riot {
+  animation: slide-xdown 1.6s ease;
+}
+
+.neon {
+  animation: slide-xdown 2.4s ease;
+}
+
+.koala {
+  animation: slide-xdown 3.1s ease;
+}
 .image img {
   width: 300px;
   margin-bottom: 0.3rem;

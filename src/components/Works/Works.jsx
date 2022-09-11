@@ -6,6 +6,8 @@ import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiPython } from "react-icons/di"
 import { SiBlender, SiVuedotjs } from "react-icons/si";
 import { gsap } from 'gsap';
 import LocomotiveScroll from "locomotive-scroll";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Works = () => {
 
@@ -49,10 +51,15 @@ const Works = () => {
     ref.current.style.opacity= '0';
   }
 
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div data-scroll id="works">
       <div className="works">
-        <h2>FEATURED WORKS.</h2>
+        <h2 data-aos="fade-up">FEATURED WORKS.</h2>
         {/*<div className="test2" ref={ref}>
           <img src={test2} className="cursor-follow" ref={el => cursor =el}/>
         </div>*/}
@@ -60,7 +67,7 @@ const Works = () => {
           <img src={test} className="cursor-follow" ref={el => cursor =el}/>
         </div>
         <div className="list-works">
-          <div className="movie" onMouseEnter={hover} onMouseLeave={hoverout}>
+          <div className="movie" data-aos="fade-up" data-aos-duration="300" onMouseEnter={hover} onMouseLeave={hoverout}>
             <div className="line">
               <h2 className="title">IMDB WANNA BE</h2>
               <DiReact title="React JS" className="icon"/>
@@ -70,7 +77,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/klawcodes/movie-app" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-          <div className="larq" onMouseEnter={hover} onMouseLeave={hoverout}>
+          <div className="larq" data-aos="fade-up" data-aos-duration="600" onMouseEnter={hover} onMouseLeave={hoverout}>
             <div className="line">
               <h2 className="title">LARQ API</h2>
               <DiJsBadge title="JavaScript" className="icon"/>
@@ -78,7 +85,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/klawcodes/larq-api" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-          <div className="game">
+          <div className="game" data-aos="fade-up" data-aos-duration="900">
             <div className="line">
               <h2 className="title">PLATFORMER GAME</h2>
               <DiPython title="Python" className="icon"/>
@@ -86,7 +93,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/secretego/platformer-game" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-          <div className="hsd">
+          <div className="hsd" data-aos="fade-up" data-aos-duration="1200">
             <div className="line">
               <h2 className="title">HAND SIGN DETECTOR</h2>
               <DiPython title="Python" className="icon"/>
@@ -94,7 +101,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/klawcodes/hand-sign-detector" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-          <div className="hsd">
+          <div className="hsd" data-aos="fade-up" data-aos-duration="1400">
             <div className="line">
               <h2 className="title">ANIME SEARCHER</h2>
               <SiVuedotjs title="Vue JS" className="icon"/>
@@ -104,7 +111,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/klawcodes/anime-searcher" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-         <div className="hsd">
+         <div className="hsd" data-aos="fade-up" data-aos-duration="1900">
           <div className="line">
             <h2 className="title">EFFECT DESTROYER</h2>
             <SiBlender title="Blender" className="icon"/>
