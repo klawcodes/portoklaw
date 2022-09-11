@@ -34,26 +34,26 @@ I'm interested in programming since 2020, the first time i started programming w
           <div className="coding">
             <h2>PROGRAMMING LANGUAGES & TOOLS</h2>
             <div className="skill-main">
-              <div className="skill-bar">
+              {/*<div className="skill-bar">
                 <div className="info">
                   {/*<p>HTML</p>
-                <p>80%</p>*/}
-                  <img className="prologo" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg'/>
+                <p>80%</p>
+                  <img className="prologo" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg'/>}
                 </div>
-                {/*<div className="bar">
+                <div className="bar">
                   <span className="html"></span>
+                </div>
               </div>*/}
-              </div>
-              <div className="skill-bar">
+              {/*<div className="skill-bar">
                 <div className="info">
-                  {/*<p>CSS</p>
-                <p>80%</p>*/}
+                  <p>CSS</p>
+                <p>80%</p>
                   <img className="prologo" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg'/>
                 </div>
-                {/*<div className="bar">
+                <div className="bar">
                   <span className="css"></span>
-              </div>*/}
               </div>
+              </div>*/}
               <div className="skill-bar">
                 <div className="info">
                   {/*<p>JAVASCRIPT</p>
@@ -89,6 +89,16 @@ I'm interested in programming since 2020, the first time i started programming w
                   {/*<p>PYTHON</p>
                 <p>30%</p>*/}
                   <img className="prologo" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'/>
+                </div>
+                {/*<div className="bar">
+                  <span className="python"></span>
+              </div>*/}
+              </div>
+              <div className="skill-bar">
+                <div className="info">
+                  {/*<p>PYTHON</p>
+                <p>30%</p>*/}
+                  <img className="prologo" src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg'/>
                 </div>
                 {/*<div className="bar">
                   <span className="python"></span>

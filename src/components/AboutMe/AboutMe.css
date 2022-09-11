@@ -64,6 +64,7 @@
 
 .skill-bar .info .prologo:hover {
   filter: grayscale(0%);
+  cursor: pointer;
 }
 
 .skill-bar .bar {

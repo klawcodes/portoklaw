@@ -45,3 +45,8 @@
   font-family: fgreg;
   src: url('../../fonts/foundergroteskmedium.otf')
 }
+
+@font-face {
+  font-family: qr;
+  src: url('../../fonts/QUARANTINE REGULATIONS.otf')
+}
