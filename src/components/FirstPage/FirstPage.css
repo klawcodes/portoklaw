@@ -132,3 +132,10 @@
     left: 50px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-left: 1rem;
+    gap: 9.5rem;
+  }
+}

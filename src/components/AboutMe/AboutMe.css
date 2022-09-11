@@ -212,3 +212,13 @@
     width: 50px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .left-a {
+    padding-left: 1rem;
+  }
+
+  .right-a {
+    padding-left: 1rem;
+  }
+}

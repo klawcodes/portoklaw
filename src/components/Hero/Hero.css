@@ -61,3 +61,10 @@ hr.g {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .image {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
