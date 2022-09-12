@@ -4,6 +4,7 @@ import klaw from '../../images/klaw.png'
 import riot from '../../images/riot.png'
 import neon from '../../images/npk.png'
 import mk from '../../images/mk.png'
+import LocomotiveScroll from 'locomotive-scroll'
 
 const Hero = () => {
   return (

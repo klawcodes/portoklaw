@@ -62,12 +62,12 @@ const Works = () => {
         <h2 data-aos="fade-up" data-aos-delay="500">FEATURED WORKS.</h2>
         {/*<div className="test2" ref={ref}>
           <img src={test2} className="cursor-follow" ref={el => cursor =el}/>
-        </div>*/}
+        </div>
         <div className="test" ref={ref}>
           <img src={test} className="cursor-follow" ref={el => cursor =el}/>
-        </div>
+        </div>*/}
         <div className="list-works">
-          <div className="movie" data-aos="fade-up" data-aos-duration="300" data-aos-delay="500" onMouseEnter={hover} onMouseLeave={hoverout}>
+          <div className="movie" data-aos="fade-up" data-aos-duration="300" data-aos-delay="500">
             <div className="line">
               <h2 className="title">IMDB WANNA BE</h2>
               <DiReact title="React JS" className="icon"/>
@@ -77,7 +77,7 @@ const Works = () => {
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
             <a href="https://github.com/klawcodes/movie-app" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
-          <div className="larq" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500" onMouseEnter={hover} onMouseLeave={hoverout}>
+          <div className="larq" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
             <div className="line">
               <h2 className="title">LARQ API</h2>
               <DiJsBadge title="JavaScript" className="icon"/>
