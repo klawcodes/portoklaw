@@ -13,7 +13,7 @@ import { useEffect, useRef } from 'react';
 
 function App() {
 
-  let container = useRef(null);
+  {/*let container = useRef(null);
 
   useEffect(() => {
     new LocomotiveScroll({
@@ -21,10 +21,10 @@ function App() {
       smooth: true,
       lerp: .07,
     });
-  }, []);
+  }, []);*/}
 
   return (
-    <div className="App container" ref={el => container = el}>
+    <div className="App container">
       <FirstPage data-scroll className="fp"/>
       <About data-scroll className="ab"/>
       <Hero data-scroll className="hr"/> 

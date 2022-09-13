@@ -11,46 +11,6 @@ import "aos/dist/aos.css";
 
 const Works = () => {
 
-
-  const ref = useRef();
-  let tl = gsap.timeline();
-  let tl2 = gsap.timeline();
-  let cursor = useRef(null);
-  let h1 = useRef(null);
-  let posX = 0;
-  let posY = 0;
-  let mouseX = 0;
-  let mouseY = 0;
-  useEffect(() => {
-    tl.to({},0.017, {
-      repeat: -1,
-      onRepeat: function(){
-        posX += (mouseX-posX) / 10;
-        posY += (mouseY-posY) / 10;
-        tl.set(cursor, {
-          css: {
-            left: posX - 50,
-            top: posY - 50,
-          }
-        })
-      }
-    })
-    document.addEventListener("mousemove", function(e){
-      mouseX = e.pageX;
-      mouseY = e.pageY;
-    })
-    
-  })
-
-  const hover = () => {
-    ref.current.style.opacity= '1' ;
-    
-  }
-
-  const hoverout = () => {
-    ref.current.style.opacity= '0';
-  }
-
   useEffect(() => {
     AOS.init();
     AOS.refresh();

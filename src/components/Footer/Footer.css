@@ -19,6 +19,7 @@
 .credit {
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
+  align-items: center;
   display: flex;
   padding-right: 2rem;
   justify-content: space-between;
@@ -27,7 +28,11 @@
 }
 
 .credit .h-2 {
-  padding-top: 0.5rem;
+  padding-top: 0.4rem;
+}
+
+.credit .time {
+  padding-top: 0.4rem;
 }
 
 .credit .h-1 {
