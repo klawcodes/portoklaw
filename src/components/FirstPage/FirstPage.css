@@ -5,8 +5,13 @@
 
 .logo {
   font-style: italic;
+  font-size: 40px;
   color: #555555;
   animation: slide-xdown .5s ease;
+}
+
+.logo a {
+  font-family: 'vv';
 }
 
 .logo:hover {

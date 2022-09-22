@@ -56,3 +56,8 @@
   font-family: qr;
   src: url('../../fonts/QUARANTINE REGULATIONS.otf')
 }
+
+@font-face {
+  font-family: vv;
+  src: url('../../fonts/vivaldi.otf')
+}
