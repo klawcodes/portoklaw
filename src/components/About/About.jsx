@@ -31,7 +31,7 @@ const About = () => {
   return (
     <div id="home">
       <div className="about">
-        <p className="text bf" ref={splitRef} data-splitting='true'>Hello my name is Klaw a Junior Programmer and Digital Artist</p>
+        <p className="text bf" ref={splitRef} data-splitting='true'>HELLO, MY NAME IS KLAW.<br/> A JUNIOR PROGRAMMER &<br/> DIGITAL ARTIST</p>
           <div className="sub-about" data-aos="fade-up" data-aos-delay="3000" data-aos-duration="1000">
             <p id="1">based in bekasi _ indonesia <br/> working worldwide</p>
           </div>
