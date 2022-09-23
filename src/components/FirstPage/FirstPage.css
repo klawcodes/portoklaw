@@ -5,6 +5,7 @@
 
 .logo {
   font-style: italic;
+  margin-top: -.8rem;
   font-size: 40px;
   color: #555555;
   animation: slide-xdown .5s ease;
@@ -74,7 +75,7 @@
       align-items: center;
       position: absolute;
       justify-content: space-between;
-      gap: 15rem;
+      gap: 12rem;
       z-index: 999;
       position: fixed;
     }
@@ -94,13 +95,14 @@
 
     .bars {
       width: 1rem;
+      margin-bottom: 1rem;
       height: 1rem;
     }
 }
 
 @media screen and (max-width: 360px) {
   .header {
-    gap: 11rem;
+    gap: 8rem;
   }
 
   .logo {
@@ -144,6 +146,6 @@
 @media screen and (max-width: 320px) {
   .header {
     margin-left: 1rem;
-    gap: 9.5rem;
+    gap: 6rem;
   }
 }
