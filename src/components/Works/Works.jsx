@@ -73,12 +73,22 @@ const Works = () => {
           </div>
          <div className="hsd" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2100">
           <div className="line">
+            <h2 className="title">HOLOLIVE ID WEBSITE</h2>
+              <DiReact title="React JS" className="icon"/>
+              <DiHtml5 title="HTML" className="icon"/>
+              <DiCss3 title="CSS" className="icon"/>
+          </div>
+          <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+          <a href="https://github.com/klawcodes/holoid-website" target="_blank"><button className="button">VIEW WORK</button></a>
+        </div> 
+        <div className="hsd" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2400">
+          <div className="line">
             <h2 className="title">EFFECT DESTROYER</h2>
             <SiBlender title="Blender" className="icon"/>
           </div>
           <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
           <a href="https://www.instagram.com/p/CiH99RgBN-E/" target="_blank"><button className="button">VIEW WORK</button></a>
-        </div> 
+        </div>
         </div>
       </div>
     </div>
