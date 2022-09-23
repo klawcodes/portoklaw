@@ -35,7 +35,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="right-c" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
-        <p className="tkontak">I WOULD LOVE TO HEAR FROM YOU.<br/>✦ LETS WORK TOGETHER.</p>
+        <p className="tkontak">I WOULD LOVE TO HEAR FROM YOU.<br/>⁘ LETS WORK<p2 className='t-v love'> Together.</p2></p>
       </div>
     </div>
   )

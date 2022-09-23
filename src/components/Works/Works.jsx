@@ -19,7 +19,7 @@ const Works = () => {
   return (
     <div data-scroll id="works">
       <div className="works">
-        <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="200">FEATURED WORKS.</h2>
+        <h2 data-aos="fade-up" data-aos-delay="500" data-aos-duration="200" className="t-v fwt">Featured Works.</h2>
         {/*<div className="test2" ref={ref}>
           <img src={test2} className="cursor-follow" ref={el => cursor =el}/>
         </div>

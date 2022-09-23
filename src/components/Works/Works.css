@@ -23,8 +23,8 @@
 }
 
 .works h2 {
-  font-size: 50px;
-  font-weight: 100;
+  font-size: 80px;
+  font-weight: 50;
 }
 
 .list-works {
@@ -83,6 +83,10 @@
   .list-works {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+
+  .works .fwt {
+    font-size: 60px;
   }
 
   .line .title {

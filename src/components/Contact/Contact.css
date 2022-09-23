@@ -52,6 +52,10 @@
   line-height: 90%;
 }
 
+.right-c .love {
+  font-size: 90px;
+} 
+
 .left-c .ava {
   display: flex;
   
@@ -83,6 +87,10 @@
 @media screen and (max-width: 360px) {
   .right-c .tkontak {
     font-size: 25px;
+  }
+
+  .right-c .love {
+    font-size: 30px;
   }
 }
 

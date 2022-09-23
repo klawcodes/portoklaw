@@ -15,8 +15,8 @@
 
 .left-a h2,
 .right-a h1{
-  font-size: 50px;
-  font-weight: 100;
+  font-size: 80px;
+  font-weight: 50;
 }
 
 .left-a p {
@@ -203,6 +203,11 @@
   .skills .design h2{
     font-size: 20px;
   }
+  
+  .right-a .abott,
+  .left-a .abott {
+    font-size: 60px;
+  } 
 
   .skills .design {
     padding-top: 1rem;
@@ -210,6 +215,12 @@
 
   .skill-bar .info .prologo {
     width: 50px;
+  }
+}
+
+@media screen and (max-width: 393px) { 
+  .left-a .abott {
+    font-size: 60px;
   }
 }
 
