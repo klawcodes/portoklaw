@@ -85,7 +85,7 @@ I'm interested in programming since 2020, the first time i started programming w
               <div className="info">
                 {/*<p>VUE JS</p>
               <p>40%</p>*/}
-                <img className="prologo" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain.svg'/>
+                <img className="prologo" src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/electron/electron-original.svg'/>
               </div>
               {/*<div className="bar">
                 <span className="react"></span>

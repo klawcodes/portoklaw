@@ -3,7 +3,7 @@ import './Works.css'
 import test from "../../images/mk.png"
 import test2 from "../../images/klaw.png"
 import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiPython } from "react-icons/di"
-import { SiBlender, SiVuedotjs } from "react-icons/si";
+import { SiBlender, SiVuedotjs, SiElectron } from "react-icons/si";
 import { gsap } from 'gsap';
 import LocomotiveScroll from "locomotive-scroll";
 import AOS from 'aos';
@@ -63,13 +63,12 @@ const Works = () => {
           </div>
           <div className="hsd" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1800">
             <div className="line">
-              <h2 className="title">ANIME SEARCHER</h2>
-              <SiVuedotjs title="Vue JS" className="icon"/>
-              <DiHtml5 title="HTML" className="icon"/>
-              <DiCss3 title="CSS" className="icon"/>
+              <h2 className="title">MARKDOWN EDITOR</h2>
+              <SiElectron title="Electron" className="icon"/>
+              <DiReact title="React JS" className="icon"/>
             </div>
             <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-            <a href="https://github.com/klawcodes/anime-searcher" target="_blank"><button className="button">VIEW WORK</button></a>
+            <a href="https://github.com/klawcodes/markdown-editor" target="_blank"><button className="button">VIEW WORK</button></a>
           </div>
          <div className="hsd" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2100">
           <div className="line">
